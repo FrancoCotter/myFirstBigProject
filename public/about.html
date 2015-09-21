@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="boot/bootstrap.css">
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+<!--顶部header-->
+<div class="row widthbg">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand logo">邮差猴</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="hotmovie.html">热映</a></li>
+                <li><a href="about.html">关于</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right navright">
+                <span id="user" class="glyphicon glyphicon-user"></span>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--conteniner部分-->
+<div class="container">
+    <div class="row">
+        <div class="title">
+            <h3>关于我们</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 p">
+            <img src="image/freddie.1441741010.svg">
+
+            <p>热爱电影,喜爱电影?受够了糟糕的团购网站?不想和大众一样,想体会不一样的看电影的方式?没错,你来对了.邮差猴电影致力于
+                发掘不一样的电影,这的电影通常都是和北美院线同步上映,邮差猴电影只做最好的线上电影订票</p>
+
+            <p>如果你想让自己big够高,想花点钱寻一场不同的体验,那么来邮差猴没错的!!!!</p>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 footer">
+        <p>&copy;邮差猴电影版权所有,保留一切权利</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript">
+    var span=document.getElementById("user");
+    var ca = document.cookie.split('=')[1];
+    span.innerText=ca;
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>邮差猴电影</title>
+    <link rel="stylesheet" href="boot/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<!--顶部header-->
+<div class="row">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand logo">邮差猴</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="hotmovie.html">热映</a></li>
+                <li><a href="about.html">关于</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right navright">
+               <span id="user" class="glyphicon glyphicon-user"></span>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!--中间内容-->
+<!--<div class="row">-->
+    <!--<div class="col-md-12 slide">-->
+        <!--<img src="image/desk-white@2x.jpg" class="bg">-->
+    <!--</div>-->
+<!--</div>-->
+<div class="row">
+        <video id="video1" src="element/Yi.mp4" type="video/mp4"></video>
+</div>
+<div class="row">
+    <div class="col-md-12 footer">
+        <p>&copy;邮差猴电影版权所有,保留一切权利</p>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+    var span=document.getElementById("user");
+    var ca = document.cookie.split('=')[1];
+    span.innerText=ca;
+</script>
+</body>
+</html>

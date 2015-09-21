@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>登录</title>
+    <link rel="stylesheet" href="boot/bootstrap.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<!--左侧登录拦-->
+<div class="col-md-7 leftLogin">
+    <div class="row">
+        <div class="loginLogo">
+            <img src="image/freddie.1441741010.svg">
+        </div>
+    </div>
+    <div class="row">
+        <form role="form" id="form" method="post" onsubmit="return false;">
+            <div class="form-group">
+                <label for="userName">用户名</label>
+                <input type="text" class="form-control" id="userName" name="username">
+                <span class="userNameTips"></span>
+            </div>
+            <div class="form-group">
+                <label for="userPassword">密码</label>
+                <input type="password" class="form-control" id="userPassword" name="userpwd">
+                <span class="userPassTips"></span>
+            </div>
+            <button class="login" onclick="login()">登录</button>
+
+            <div class="alink">
+                <a href="#" class="forget">忘记密码</a><a href="regist.html" class="regist">注册帐号</a>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div class="copy">
+            &copy;邮差猴电影
+        </div>
+    </div>
+</div>
+
+<!--右侧填充栏-->
+<div class="col-md-5 rightLogin">
+    <div class="row">
+        <div class="describle">
+            <h2>电影,是一种怎样的体验,邮差猴电影<br>
+                让你足不出户就可享受到高品质的在线订票</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="app">
+            <img src="image/ab-test-large副本.png">
+        </div>
+    </div>
+    <div class="row">
+        <div class="order">
+            <p>心动了吗?开始订票吧</p>
+            <a href="hotmovie.html">开始购票</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>

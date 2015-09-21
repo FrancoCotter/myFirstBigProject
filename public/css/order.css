@@ -1,0 +1,239 @@
+/*reset style*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../image/bg.jpg") repeat;
+    background-position: 0 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/*reset style over*/
+/*ngshow style*/
+.bgshow {
+    width: 100%;
+    height: 1100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: relative;
+    z-index: 0;
+    margin-top: -790px;
+}
+
+/*return button style*/
+.return a {
+    color: #000;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.return a:hover {
+    text-decoration: none;
+}
+
+/*order style*/
+.order {
+    width: 780px;
+    height: 476px;
+    background: #fff;
+    border: 1px solid #ccc;
+    /*margin-top: 150px;*/
+    margin: 20px auto;
+    position: relative;
+    z-index: 1
+}
+
+.front {
+    width: 300px;
+    margin: 5px 32px 45px 32px;
+    background-color: #f0f0f0;
+    color: #666;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.booking-details {
+    float: right;
+    position: relative;
+    width: 200px;
+    height: 432px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.booking-details h3 {
+    margin: 5px 5px 0 0;
+    font-size: 16px;
+}
+
+.booking-details p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #999
+}
+
+.booking-details p span {
+    color: #666
+}
+
+.booking-details p img {
+    width: 69px;
+    height: 94px;
+    text-align: center;
+}
+
+div.seatCharts-cell {
+    color: #182C4E;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    margin: 3px;
+    float: left;
+    text-align: center;
+    outline: none;
+    font-size: 13px;
+}
+
+div.seatCharts-seat {
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.seatCharts-row {
+    height: 35px;
+}
+
+div.seatCharts-seat.available {
+    background-color: #ccc;
+}
+
+div.seatCharts-seat.focused {
+    background-color: lightpink;
+    border: none;
+}
+
+div.seatCharts-seat.selected {
+    background-color: #E6CAC4;
+}
+
+div.seatCharts-seat.unavailable {
+    background-color: palevioletred;
+    cursor: not-allowed;
+}
+
+div.seatCharts-container {
+    /*border-right: 1px dotted #adadad;*/
+    width: 400px;
+    float: left;
+    margin-right: 40px;
+    margin-top: 16px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+}
+
+div.seatCharts-legend {
+    padding-left: 0px;
+    /*position: absolute;*/
+    bottom: 16px;
+}
+
+ul.seatCharts-legendList {
+    padding-left: 0px;
+}
+
+.seatCharts-legendItem {
+    float: left;
+    width: 90px;
+    margin-top: 10px;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+
+/*.checkout-button {*/
+/*display: block;*/
+/*width: 80px;*/
+/*height: 24px;*/
+/*line-height: 20px;*/
+/*margin: 10px auto;*/
+/*border: 1px solid #999;*/
+/*font-size: 14px;*/
+/*cursor: pointer*/
+/*}*/
+.checkout-button {
+    background-color: black;
+    color: #fff;
+}
+
+.checkout-button:hover {
+    background-color: #535252 color : #000;
+}
+
+#selected-seats {
+    max-height: 43px;
+    /*overflow-y: scroll;*/
+    overflow-x: hidden;
+    width: 200px;
+}
+
+#selected-seats li {
+    float: left;
+    width: 72px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #d3d3d3;
+    background: #f7f7f7;
+    margin: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center
+}
+
+@media screen and (max-width:640px){
+    body{
+        background: #338ec4;
+        /*background-size: cover;*/
+    }
+    .order{
+        width:358px;
+        margin: 0 auto;
+    }
+    /*.front{*/
+        /*margin: 20px 10px 0 10px ;*/
+    /*}*/
+    .booking-details{
+        float:none;
+        margin-right: 0px;
+    }
+    .bgshow{
+        display: none;
+    }
+    .div .seatCharts-container{
+        margin-right: 0px;
+        border-right:1px solid #ccc;
+    }
+
+}
+
+/*# sourceMappingURL=order.css.map */

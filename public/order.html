@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订票</title>
+    <link rel="stylesheet" href="boot/bootstrap.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+    <div class="return">
+        <a href="javascript:window.history.back()">返回</a>
+    </div>
+    <div class="order">
+        <div id="seat-map">
+            <div class="front">屏幕</div>
+        </div>
+        <div class="booking-details">
+            <p>影片:<span>时空尽头的恋人</span></p>
+            <p><img src="image/p2235685953.jpg"> </p>
+            <p>时间:<span>6月5日</span></p>
+            <p>座位:</p>
+            <ul id="selected-seats"></ul>
+            <p>票数：<span id="counter">0</span></p>
+            <p>总计：<b>￥<span id="total">0</span></b></p>
+            <a class="btn btn-default checkout-button" id="checkout-button">确定购买</a>
+            <div id="legend"></div>
+        </div>
+    </div>
+    <div class="bgshow">11111</div>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.seat-charts.min.js"></script>
+<script type="text/javascript" src="js/order.js"></script>
+<script type="text/javascript">
+    var positionX=0;
+    var body=document.getElementsByTagName("body")[0];
+    function bgmove(){
+        positionX+=60;
+        body.style.backgroundPositionX=-(positionX)+"px";
+        if(positionX>4350){
+            positionX=0;
+        }
+    }
+    timer=setInterval(bgmove,300);
+//    $(window).resize(function(){
+//        if(document.body.clientWidth<960){
+//            clearInterval(timer);
+//        }
+//    });
+//    function startINterval(){
+//       document.body.clientWidth<960?clearInterval(timer):timer;
+//    }
+</script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+/*reset style*/
+body, h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: #F9F9F9;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*======================*/
+/*the style of header*/
+.widthbg{
+    background-color: #fff;
+}
+.logo{
+    display: block;
+    text-indent: -9999px;
+    background: url("../image/freddie.1441741010.svg") no-repeat;
+    width: 42px;
+    margin-left:100px;
+    /*margin:7px 0 7px 100px;*/
+}
+.navbar-default{
+    background-color: #fff;
+    border:none;
+    margin: 15px 0;
+}
+.navbar{
+    border:none;
+    margin: 15px 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#3a3a3a;
+}
+.navbar-nav li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#3a3a3a;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    transition: .2s linear all;
+    color: #6F6E6E;
+}
+/*.navbar-default .navbar-nav>li>a.not-active{*/
+/*pointer-events: none;*/
+/*cursor: default;*/
+/*}*/
+.navright{
+    margin-right: 40px;
+    margin-top: 17px;
+}
+.navright a{
+    color:black;
+    cursor: pointer;
+}
+.navright a:hover{
+    color:indianred;
+}
+
+
+/*container style*/
+.container {
+    background: #F9F9F9;
+    padding: 1px;
+}
+
+.container h3 {
+    margin: 120px auto 0 auto;
+    margin-left: 20px;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.container .p {
+    float: none;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/*the style of footer*/
+.footer p {
+    text-align: center;
+
+}
+
+/*# sourceMappingURL=about.css.map */

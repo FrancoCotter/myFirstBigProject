@@ -1,0 +1,94 @@
+/*reset style*/
+body,h1,h2,h3,h4,h5,h6,ul,li,{
+  margin:0;
+  padding:0;
+}
+body{
+  //background: #ccc;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #F9F9F9;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+/*======================*/
+
+/*the style of header*/
+#header{
+  background:#FFFFFF;
+  .logo{
+    a{
+      display: block;
+      text-indent: -9999px;
+      background: url("../image/freddie.1441741010.svg") no-repeat;
+      width: 42px;
+      padding:15px 0;
+      margin:15px 0 15px 100px;
+    }
+  }
+  .nav{
+    margin-top: 30px;
+    margin-left: 140px;
+    ul{
+      li{
+        display:inline-block;
+        padding:0 30px;
+        a{
+          display:inline-block;
+          color:#3a3a3a;
+        }
+        a:hover{
+          transition:.2s linear all;
+          color:#6F6E6E
+        }
+      }
+    }
+  }
+  .sign{
+    margin-top: 30px;
+    text-align: right;
+    .signup{
+      padding:10px 40px;
+      background:#E85C41;
+      color:#fff;
+      font-weight:bolder;
+      border-radius:4px;
+    }
+    .signup:hover{
+      transition: .3s linear all;
+      background:#F3411E;
+    }
+    .login{
+      color:#3a3a3a;
+      margin-left: 28px;
+    }
+  }
+}
+/*container style*/
+.container{
+  background:  #F9F9F9;
+  padding:1px;
+  h3{
+    margin: 120px auto 0 auto;
+    margin-left: 20px;
+    font-size:2.8em;
+    text-align: center;
+  }
+  .p{
+    float: none;
+    margin: 40px auto;
+    text-align: center;
+  }
+}
+.footer {
+  p{
+    text-align: center;
+  }
+  }

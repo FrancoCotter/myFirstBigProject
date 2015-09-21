@@ -1,0 +1,515 @@
+/*reset style*/
+html {
+    overflow-x: hidden;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F9F9F9;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*======================*/
+/*about animate*/
+@keyframes drumming-up {
+    0% {
+        background-position: right 0px;
+    }
+    95% {
+        background-position: right 5px;
+    }
+}
+
+/*animate over*/
+/*the style of header*/
+.widthbg{
+    background-color: #fff;
+}
+.logo{
+    display: block;
+    text-indent: -9999px;
+    background: url("../image/freddie.1441741010.svg") no-repeat;
+    width: 42px;
+    margin-left:100px;
+    /*margin:7px 0 7px 100px;*/
+}
+.navbar-default{
+    background-color: #fff;
+    border:none;
+    margin: 15px 0;
+}
+.navbar{
+    border:none;
+    margin: 15px 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#3a3a3a;
+}
+.navbar-nav li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#3a3a3a;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    transition: .2s linear all;
+    color: #6F6E6E;
+}
+/*.navbar-default .navbar-nav>li>a.not-active{*/
+/*pointer-events: none;*/
+/*cursor: default;*/
+/*}*/
+.navright{
+    margin-right: 40px;
+    margin-top: 17px;
+}
+
+
+
+
+/*content  style*/
+.content {
+    width: 100%;
+    height: 830px;
+    background-position: center top;
+    background-size: cover;
+    padding: 1px;
+}
+
+.adaline {
+    background: url("../image/p2228357896.jpg") no-repeat;
+    background-attachment: fixed;
+}
+
+.adaline .right {
+    width: 220px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.adaline .right h3 {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.adaline .right p {
+    text-align: left;
+    margin: 12px 0 20px 0;
+}
+
+.adaline .right a {
+    display: block;
+    text-align: center;
+    border: 1px solid #000;
+    color: #000;
+    padding: 12px 0;
+}
+
+.adaline .right a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.adaline .tips {
+    color: #fff;
+    position: absolute;
+    top: 380px;
+    left: 65px;
+}
+
+.adaline .tips span {
+    width: 110px;
+    height: 37px;
+    line-height: 37px;
+    background: url("../image/arrow@2x.png") no-repeat center right;
+    display: block;
+    background-size: 20px;
+    animation: drumming-up 0.8s linear infinite;
+    font-size: 1.2em;
+}
+
+.far {
+    background: url("../image/p2257423067.jpg") no-repeat center center;
+}
+
+.far .left {
+    width: 220px;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.far .left h3 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.far .left p {
+    text-align: left;
+    margin: 12px 0 20px 0;
+    color: #fff;
+}
+
+.far .left a {
+    display: block;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 0;
+}
+
+.far .left a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.gold {
+    height: 620px;
+    background: url("../image/p2252931373.jpg") no-repeat;
+    background-attachment: fixed;
+}
+
+.gold .right {
+    width: 240px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.gold .right h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.gold .right p {
+    margin: 10px 0;
+}
+
+.gold .right a {
+    display: block;
+    text-align: center;
+    border: 1px solid #000;
+    color: #000;
+    padding: 12px 0;
+}
+
+.gold .right a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.southpaw {
+    background: url("../image/p2257088601.jpg") no-repeat left top;
+}
+
+.southpaw .left {
+    width: 220px;
+    margin-left: 80px;
+    margin-top: 120px;
+    color: #fff;
+}
+
+.southpaw .left h3 {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.southpaw .left p {
+    margin: 12px 0 20px 0;
+}
+
+.southpaw .left a {
+    display: block;
+    text-align: center;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 0;
+}
+
+.southpaw .left a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.Insurgent {
+    background: url("../image/p2251082634.jpg") no-repeat center center;
+    background-attachment: fixed;
+    height: 620px;
+}
+
+.Insurgent .right {
+    width: 240px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 120px;
+}
+
+.Insurgent .right h3 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.Insurgent .right p {
+    margin: 20px 0;
+}
+
+.Insurgent .right a {
+    display: block;
+    text-align: center;
+    border: 1px solid #000;
+    color: #000;
+    padding: 12px 0;
+}
+
+.Insurgent .right a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.showlist {
+    background: #F9F9F9;
+    margin-top: 60px;
+}
+.showlist ul{
+    text-align: center;
+}
+.showlist li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 99px;
+    margin-bottom: 50px;
+}
+
+.showlist li h3 {
+    margin-bottom: 20px;
+}
+
+.showlist li img {
+    display: block;
+}
+.showlist li img:hover{
+    transition:.4s linear all;
+    opacity: 0.6;
+    /*cursor: copy;*/
+}
+.showlist li a {
+    width: 120px;
+    margin: 18px auto 0 auto;
+    display: block;
+    border: 1px solid #000;
+    color: #000;
+    padding: 12px 0;
+}
+
+.showlist li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .adaline > .tips {
+        display: none;
+    }
+    .adaline .right{
+        width: 187px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    .adaline .right h3{
+        font-size:1.2em;
+        font-weight: normal;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    .adaline .right img{
+        width:47px;
+        height:70px;
+    }
+    .adaline .right p{
+        width:133px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size:1.1em;
+        color:#000;
+        margin-top:15px;
+    }
+    .adaline .right p::before{
+        content:"主演:布蕾克·莱弗利,"
+    }
+    .adaline .right a.Buy{
+        display: inline;
+        padding:5px;
+        border:1px solid #000;
+        font-size:0.9em;
+    }
+    .far .left{
+        width: 260px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .far .left h3{
+        font-size:1.2em;
+        font-weight: normal;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    .far .left img{
+        width:47px;
+        height:70px;
+    }
+    .far .left p{
+        width:234px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size:1.1em;
+        color:#fff;
+        margin-top:15px;
+    }
+    .far .left p::before{
+        content:"主演:凯瑞·穆里根,马提亚斯·修奈尔,麦克·辛,汤姆·斯图里奇"
+    }
+    .far .left a.Buy{
+        display: inline;
+        padding:5px;
+        border:1px solid #fff;
+        font-size:0.9em;
+    }
+    .adaline,.far,.gold,.Insurgent,.southpaw{
+        width: 100%;
+        height:220px;
+        -webkit-background-size: 100%;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    .gold .right{
+        width: 187px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 30px;
+        /*margin-top: 0px;*/
+        /*margin-right: 0px;*/
+    }
+    .gold .right h3{
+        font-size:1.2em;
+        font-weight: normal;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    .gold .right img{
+        width:47px;
+        height:70px;
+    }
+    .gold .right p{
+        width:187px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size:1.1em;
+        color:#000;
+        margin-top:15px;
+    }
+    .gold .right p::before{
+        content:"主演:海伦·米伦,瑞恩·雷诺兹"
+    }
+    .gold .right a.Buy{
+        display: inline;
+        padding:5px;
+        border:1px solid #000;
+        font-size:0.9em;
+    }
+    .southpaw .left{
+        width: 310px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .southpaw .left h3{
+        font-size:1.2em;
+        font-weight: normal;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    .southpaw .left img{
+        width:47px;
+        height:70px;
+    }
+    .southpaw .left p{
+        width:218px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size:1.1em;
+        color:#FFFFFF;
+        margin-top:15px;
+    }
+    .southpaw .left p::before{
+        content:"主演:杰克·吉伦哈尔,乌娜·劳伦斯";
+    }
+    .southpaw .left a.Buy{
+        display: inline;
+        padding:5px;
+        border:1px solid #fff;
+        font-size:0.9em;
+    }
+    .Insurgent .right{
+        width: 187px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    .Insurgent .right h3{
+        font-size:1.2em;
+        font-weight: normal;
+        margin-bottom: 10px;
+        color: #000;
+    }
+    .Insurgent .right img{
+        width:47px;
+        height:70px;
+    }
+    .Insurgent .right p{
+        width:187px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size:1.1em;
+        color:#000;
+        margin-top:15px;
+    }
+    .Insurgent .right p::before{
+        content:"主演:谢琳·伍德蕾,提奥·詹姆斯"
+    }
+    .Insurgent .right a.Buy{
+        display: inline;
+        padding:5px;
+        border:1px solid #000;
+        font-size:0.9em;
+    }
+}
+

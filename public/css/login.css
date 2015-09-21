@@ -1,0 +1,140 @@
+/*reset style*/
+body, h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*======================*/
+/*leftlogin style*/
+.leftLogin {
+    background: #F9F9F9;
+}
+
+.leftLogin .loginLogo {
+    width: 82px;
+    margin: 120px auto 20px auto;
+}
+
+.leftLogin form {
+    /*margin-left: 33%;*/
+    padding-bottom: 100px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.leftLogin form input {
+    border: 2px solid lightgray;
+}
+
+.leftLogin form input:hover {
+    border: 2px solid darkgrey;
+}
+
+.leftLogin form input:focus {
+    border: 2px solid #2c9ab7;
+    box-shadow: none;
+    transition: .3s linear all;
+}
+
+.leftLogin form span {
+    font-weight: bold;
+    color: #737373;
+}
+
+.leftLogin form .login {
+    width: 120px;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #737373;
+    border-radius: 5px;
+    border:none;
+}
+
+.leftLogin form .login:hover {
+    background: lightgray;
+    transition: .4s linear;
+    color: #000;
+}
+
+.leftLogin form .alink {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.leftLogin form .alink .forget, .leftLogin form .alink .regist {
+    margin-left: 18px;
+    padding-bottom: 40px;
+    color: #2c9ab7;
+    text-decoration: underline;
+}
+
+.leftLogin form .alink .forget:visited, .leftLogin form .alink .regist:visited {
+    color: #2C9AB7;
+}
+
+.leftLogin .copy {
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+/*right style*/
+.rightLogin .describle h2 {
+    font-weight: normal;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.rightLogin .app img {
+    display: block;
+    margin: 90px auto;
+    width: 370px;
+
+}
+
+.rightLogin .order {
+    margin: 20px auto;
+}
+
+.rightLogin .order p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rightLogin .order a {
+    display: block;
+    width: 120px;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+}
+
+.rightLogin .order a:hover {
+    background: #000;
+    color: #fff;
+    transition: .2s linear all;
+}
+
+/*# sourceMappingURL=login.css.map */

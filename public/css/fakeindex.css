@@ -1,0 +1,198 @@
+/*reset style*/
+body, h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*.navbar-default {*/
+/*background-color: #fff;*/
+/*border: none;*/
+/*}*/
+/*.navbar {*/
+/*float: right;*/
+/*/!*margin-top: -45px;*!/*/
+/*}*/
+
+/*======================*/
+/*the style of header*/
+
+.logo{
+    display: block;
+    text-indent: -9999px;
+    background: url("../image/freddie.1441741010.svg") no-repeat;
+    width: 42px;
+    margin-left:100px;
+    /*margin:7px 0 7px 100px;*/
+}
+.navbar-default{
+    background-color: #fff;
+    border:none;
+    margin: 15px 0;
+}
+.navbar{
+    border:none;
+    margin: 15px 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#3a3a3a;
+}
+.navbar-nav li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#3a3a3a;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    transition: .2s linear all;
+    color: #6F6E6E;
+}
+.navbar-default .navbar-nav>li>a.not-active{
+    pointer-events: none;
+    cursor: default;
+}
+.navright{
+    margin-right: 40px;
+}
+.navright li>a.register{
+    display: inline-block;
+    background-color: #E85C41;
+    width: 120px;
+    height: 47px;
+    text-align: center;
+    color:#fff;
+    border-radius:7px;
+
+}
+.navright li>a.register:hover{
+    transition: .3s linear all;
+    background: #F3411E;
+    color:#fff;
+}
+
+/*the style of slide*/
+.slide {
+    height: 100%;
+    padding: 1px;
+}
+
+.slide .bg {
+    width: 100%;
+}
+
+.slide img {
+    width: 650px;
+}
+
+.slidesmacshow {
+    width: 540px;
+    height: 431px;
+    margin: -580px auto 0 auto;
+    float: none;
+}
+
+.slidesmacshow img {
+    width: 540px;
+}
+
+.slidesmacshow video {
+    width: 494px;
+    position: relative;
+    top: -408px;
+    left: 23px;
+}
+
+.slidesmacshow .butn {
+    margin-top: -600px;
+}
+
+.slidesmacshow .butn #play {
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+    background: url("../image/result.png") no-repeat 0 -138px;
+    position: relative;
+    z-index: 12;
+    margin-left: 208px;
+}
+
+/*1280px slidemacshow style*/
+@media screen and (max-width: 1280px) {
+    .slidesmacshow {
+        width: 540px;
+        height: 431px;
+        margin: -519px auto 0 auto;
+        float: none;
+    }
+
+    .slidesmacshow img {
+        width: 509px;
+    }
+
+    .slidesmacshow video {
+        width: 468px;
+        position: relative;
+        top: -385px;
+        left: 21px;
+    }
+}
+
+/*1280px to 1440px slidemacshow style*/
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .slidesmacshow {
+        width: 540px;
+        height: 431px;
+        margin: -535px auto 0 auto;
+        float: none;
+    }
+
+    .slidesmacshow img {
+        width: 509px;
+    }
+
+    .slidesmacshow video {
+        width: 468px;
+        position: relative;
+        top: -385px;
+        left: 21px;
+    }
+}
+
+/*1120px slidemacshow style*/
+@media screen and (max-width: 1120px) {
+    .slidesmacshow {
+        display: none;
+    }
+    /*.vid{*/
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    /*width:320px;*/
+    /*}*/
+    /*#video2{*/
+    /*width:320px;*/
+    /*}*/
+}
+
+/*the style of footer*/
+.footer p {
+    text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */
